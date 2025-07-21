@@ -140,7 +140,7 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kt TILDE        &kp EXCLAMATION  &kp AT_SIGN      &kp HASH       &kp DOLLAR     &kp PERCENT                                               &kp CARET                        &kp AMPERSAND                     &kp ASTERISK                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K_MUTE
+&kt GRAVE        &kp EXCLAMATION  &kp AT_SIGN      &kp HASH       &kp DOLLAR     &kp PERCENT                                               &kp CARET                        &kp AMPERSAND                     &kp ASTERISK                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp K_MUTE
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                                              &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(55,100,50)  &rgb_ug RGB_COLOR_HSB(108,100,50)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &bt BT_CLR_ALL   &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                                             &kp MINUS                        &kp EQUAL                         &trans                             &kp LEFT_BRACE        &kt RIGHT_BRACE        &trans
 &bl BL_OFF       &bl BL_ON        &rgb_ug RGB_EFR  &bl BL_DEC     &kp C_PREV     &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC             &kp C_NEXT                        &bl BL_INC                         &rgb_ug RGB_EFF       &kp BACKSLASH          &trans
