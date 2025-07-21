@@ -27,6 +27,90 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        LG1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <29 30>;
+        };
+
+        LG2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <17 18>;
+        };
+
+        LG3 {
+            bindings = <&kp LANGUAGE_3>;
+            key-positions = <5 6>;
+        };
+
+        Bootloader_mode {
+            bindings = <&bootloader>;
+            key-positions = <9 10 11>;
+        };
+
+        System_reset {
+            bindings = <&sys_reset>;
+            key-positions = <21 22 23>;
+        };
+
+        Volume_down {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <41 42>;
+        };
+
+        Volume_up {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <43 44>;
+        };
+
+        Brightness_down {
+            bindings = <&kp C_BRIGHTNESS_DEC>;
+            key-positions = <40 41 42>;
+        };
+
+        Brightness_up {
+            bindings = <&kp C_BRIGHTNESS_INC>;
+            key-positions = <43 44 45>;
+        };
+
+        Backlit_down {
+            bindings = <&bl BL_DEC>;
+            key-positions = <42 41 40 39>;
+        };
+
+        Backlit_up {
+            bindings = <&bl BL_INC>;
+            key-positions = <43 44 45 46>;
+        };
+
+        Bluetooth1 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <0 1 2>;
+        };
+
+        Bluetooth2 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <12 13 14>;
+        };
+
+        Bluetooth3 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <24 25 26>;
+        };
+
+        Bluetooth4 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <36 37 38>;
+        };
+
+        Bluetooth5 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <50 51 52>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
