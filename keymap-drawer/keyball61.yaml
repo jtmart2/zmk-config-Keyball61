@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - {t: '$$mdi:keyboard-esc$$', h: SLEEP}
+  - {t: '$$mdi:keyboard-esc$$', h: F4}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -50,7 +50,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:arrow-up-bold$$', h: '?'}
-  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-caps$$
   - F2
   - $$mdi:apple-keyboard-option$$
