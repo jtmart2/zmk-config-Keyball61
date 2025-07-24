@@ -49,8 +49,8 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '?'}
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', h: '?'}
+  - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-caps$$
   - F2
   - $$mdi:apple-keyboard-option$$
@@ -60,8 +60,8 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -145,7 +145,7 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - _
   - {t: '=', s: +}
-  - <
+  - FAST FORWARD
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - PRINTSCREEN
@@ -157,7 +157,7 @@ layers:
   - {t: BT DISC, h: '4'}
   - {t: '-', s: _}
   - +
-  - '>'
+  - REWIND
   - '{'
   - {t: '}', h: toggle}
   - Ins
