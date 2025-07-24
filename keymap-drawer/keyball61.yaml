@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: SLEEP}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -11,7 +11,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '0', h: F11, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
@@ -49,10 +49,10 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:arrow-up-bold$$', h: '?'}
+  - $$mdi:arrow-up-bold$$
   - $$mdi:apple-keyboard-caps$$
-  - $$mdi:apple-keyboard-control$$
+  - F2
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - SNIPE
@@ -60,8 +60,8 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '-', s: _}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -143,12 +143,12 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - RGB COLOR HSB(0,100,50)
-  - RGB COLOR HSB(55,100,50)
-  - RGB COLOR HSB(108,100,50)
+  - _
+  - {t: '=', s: +}
+  - <
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - BT CLR ALL
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
@@ -156,11 +156,11 @@ layers:
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
+  - '>'
   - '{'
   - {t: '}', h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ins
   - '&bl BL_OFF'
   - '&bl BL_ON'
   - RGB EFR
@@ -173,18 +173,18 @@ layers:
   - '&bl BL_INC'
   - $$mdi:skip-next$$
   - RGB EFF
+  - {t: /, s: '?'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(0,100,50)
+  - RGB COLOR HSB(136,100,50)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '=', s: +}
+  - '|'
   - $$mdi:volume-off$$
   FUN:
   - F12
