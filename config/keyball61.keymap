@@ -131,17 +131,32 @@
         };
     };
 
+    behaviors {
+        HMR: HMR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 2 3 4 57 58>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC           &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                                   &kp N6           &kp N7  &kp N8     &kp N9   &kp N0     &kp BSPC
-&kp TAB           &kp Q      &kp W         &kp E         &kp R   &kp T                                    &kp Y            &kp U   &kp I      &kp O    &kp P      &kp GRAVE
-&kp LEFT_SHIFT    &kp A      &kp S         &kp D         &kp F   &kp G                                    &kp H            &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LEFT_CONTROL  &kp Z      &kp X         &kp C         &kp V   &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH   &kp RIGHT_SHIFT
-&kp CAPSLOCK      &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &mo 6   &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                              &kp MINUS  &kp DELETE
+&HMR C_SLEEP ESC  &kp N1  &kp N2        &kp N3        &kp N4  &kp N5                                   &kp N6           &kp N7  &kp N8     &kp N9   &HMR F11 N0             &kp BSPC
+&kp TAB           &kp Q   &kp W         &kp E         &kp R   &kp T                                    &kp Y            &kp U   &kp I      &kp O    &kp P                   &kp GRAVE
+&kp LEFT_SHIFT    &kp A   &kp S         &kp D         &kp F   &kp G                                    &kp H            &kp J   &kp K      &kp L    &kp SEMI                &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X         &kp C         &kp V   &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &HMR QUESTION UP_ARROW  &kp UP_ARROW
+&kp CAPSLOCK      &kp F2  &kp LEFT_ALT  &kp LEFT_WIN  &mo 6   &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                              &kp LEFT_ARROW          &kp RIGHT
             >;
         };
 
@@ -160,11 +175,11 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kt GRAVE        &kp EXCLAMATION  &kp AT_SIGN      &kp HASH        &kp DOLLAR     &kp PERCENT                                               &kp CARET                        &kp AMPERSAND                     &kp ASTERISK                       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4                                              &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(55,100,50)  &rgb_ug RGB_COLOR_HSB(108,100,50)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&bt BT_CLR_ALL   &bt BT_DISC 0    &bt BT_DISC 1    &bt BT_DISC 2   &bt BT_DISC 3  &bt BT_DISC 4                                             &kp MINUS                        &kp EQUAL                         &trans                             &kp LEFT_BRACE        &kt RIGHT_BRACE        &trans
-&bl BL_OFF       &bl BL_ON        &rgb_ug RGB_EFR  &kp C_PREVIOUS  &bl BL_DEC     &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC             &bl BL_INC                        &kp C_NEXT                         &rgb_ug RGB_EFF       &kp BACKSLASH          &trans
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &trans           &trans          &trans         &trans                &trans             &trans           &trans                                                                                                                      &kp EQUAL              &kp C_MUTE
+&kt GRAVE        &kp EXCLAMATION  &kp AT_SIGN                      &kp HASH                           &kp DOLLAR     &kp PERCENT                                               &kp CARET             &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1                     &bt BT_SEL 2                       &bt BT_SEL 3   &bt BT_SEL 4                                              &kp UNDERSCORE        &kp EQUAL      &kp LESS_THAN     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PRINTSCREEN
+&bt BT_CLR_ALL   &bt BT_DISC 0    &bt BT_DISC 1                    &bt BT_DISC 2                      &bt BT_DISC 3  &bt BT_DISC 4                                             &kp MINUS             &kp PLUS       &kp GREATER_THAN  &kp LEFT_BRACE        &kt RIGHT_BRACE        &kp INSERT
+&bl BL_OFF       &bl BL_ON        &rgb_ug RGB_EFR                  &kp C_PREVIOUS                     &bl BL_DEC     &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &bl BL_INC     &kp C_NEXT        &rgb_ug RGB_EFF       &kp SLASH              &kp BACKSLASH
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &trans         &trans                &trans             &trans           &trans                                                                       &kp PIPE               &kp C_MUTE
             >;
         };
 
