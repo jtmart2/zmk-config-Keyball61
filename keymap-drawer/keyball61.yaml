@@ -1,17 +1,17 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - {t: '$$mdi:keyboard-esc$$', h: F4}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', h: _, s: (}
-  - {t: '0', h: F11, s: )}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '1', h: F1, s: '!'}
+  - {t: '2', h: F2, s: '@'}
+  - {t: '3', h: F3, s: '#'}
+  - {t: '4', h: F4, s: $}
+  - {t: '5', h: F5, s: '%'}
+  - {t: '6', h: F6, s: ^}
+  - {t: '7', h: F7, s: '&'}
+  - {t: '8', h: F8, s: '*'}
+  - {t: '9', h: F9, s: (}
+  - {t: '0', h: F10, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
@@ -19,12 +19,12 @@ layers:
   - E
   - R
   - T
-  - {t: +, h: Y}
-  - U
+  - {t: Y, h: +}
+  - {t: U, h: _}
   - I
   - O
-  - P
-  - {t: '`', s: '~'}
+  - {t: P, h: Gui+Sft+S}
+  - {t: '`', h: F11, s: '~'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -52,7 +52,7 @@ layers:
   - {t: '$$mdi:arrow-left-bold$$', h: '?'}
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-caps$$
-  - F2
+  - {t: 'Gui+Ctl+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:keyboard-tab$$'}
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - SNIPE
@@ -147,8 +147,8 @@ layers:
   - _
   - FAST FORWARD
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - PRINTSCREEN
+  - {t: ']', h: PRINTSCREEN, s: '}'}
+  - F11
   - BT CLR ALL
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
