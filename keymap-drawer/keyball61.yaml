@@ -51,8 +51,8 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:arrow-left-bold$$', h: '?'}
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-caps$$
-  - {t: 'Gui+Ctl+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:keyboard-tab$$'}
+  - {t: 'Ctl+Gui+$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: 'Gui+Ctl+$$mdi:arrow-right-bold$$', h: 'Gui+$$mdi:keyboard-tab$$'}
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - SNIPE
