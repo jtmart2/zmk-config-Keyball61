@@ -152,11 +152,11 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&HMR DELETE ESC                   &HMR F1 N1                  &HMR F2 N2    &HMR F3 N3    &HMR F4 N4  &HMR F5 N5                               &HMR F6 N6       &HMR F7 N7    &HMR F8 N8  &HMR F9 N9        &HMR F10 N0         &kp BSPC
-&kp TAB                           &kp Q                       &kp W         &kp E         &kp R       &kp T                                    &HMR PLUS Y      &HMR UNDER U  &kp I       &kp O             &HMR LG(LS(S)) P    &HMR F11 GRAVE
-&kp LEFT_SHIFT                    &kp A                       &kp S         &kp D         &kp F       &kp G                                    &HMR MINUS H     &HMR EQUAL J  &kp K       &HMR BACKSLASH L  &HMR QUESTION SEMI  &HMR SLASH SQT
-&kp LEFT_CONTROL                  &kp Z                       &kp X         &kp C         &kp V       &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M         &kp COMMA   &kp DOT           &kp LEFT_ARROW      &kp RIGHT
-&HMR CAPSLOCK LC(LG(LEFT_ARROW))  &HMR LG(TAB) LG(LC(RIGHT))  &kp LEFT_ALT  &kp LEFT_WIN  &mo 6       &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                                              &kp DOWN_ARROW      &kp UP_ARROW
+&HMR DELETE ESC                   &HMR F1 N1                  &HMR F2 N2    &HMR F3 N3    &HMR F4 N4  &HMR F5 N5                               &HMR F6 N6       &HMR F7 N7    &HMR F8 N8          &HMR F9 N9        &HMR F10 N0         &kp BSPC
+&kp TAB                           &kp Q                       &kp W         &kp E         &kp R       &kp T                                    &HMR PLUS Y      &HMR UNDER U  &kp I               &kp O             &HMR LG(LS(S)) P    &HMR F11 GRAVE
+&kp LEFT_SHIFT                    &kp A                       &kp S         &kp D         &kp F       &kp G                                    &HMR MINUS H     &HMR EQUAL J  &HMR EXCLAMATION K  &HMR BACKSLASH L  &HMR QUESTION SEMI  &HMR SLASH SQT
+&kp LEFT_CONTROL                  &kp Z                       &kp X         &kp C         &kp V       &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M         &kp COMMA           &kp DOT           &kp LEFT_ARROW      &kp RIGHT
+&HMR CAPSLOCK LC(LG(LEFT_ARROW))  &HMR LG(TAB) LG(LC(RIGHT))  &kp LEFT_ALT  &kp LEFT_WIN  &mo 6       &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                                                      &kp DOWN_ARROW      &kp UP_ARROW
             >;
         };
 
