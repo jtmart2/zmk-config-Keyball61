@@ -14,7 +14,7 @@ layers:
   - {t: '0', h: F10, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
+  - {t: Q, h: '!'}
   - W
   - E
   - R
@@ -33,7 +33,7 @@ layers:
   - G
   - {t: H, h: '-'}
   - {t: J, h: '='}
-  - {t: K, h: '!'}
+  - K
   - {t: L, h: \}
   - {t: ;, h: '?', s: ':'}
   - {t: '''', h: /, s: '"'}
