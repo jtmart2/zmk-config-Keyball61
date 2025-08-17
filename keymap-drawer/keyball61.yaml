@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', h: F1, s: '!'}
   - {t: '2', h: F2, s: '@'}
   - {t: '3', h: F3, s: '#'}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - {t: '`', h: toggle, s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: toggle}
   - '!'
   - '@'
   - '#'
@@ -137,7 +137,7 @@ layers:
   - (
   - )
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:minus-circle-outline$$', h: '$$mdi:bluetooth-off$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
