@@ -148,7 +148,7 @@
         BLTHMR: BLTHMR {
             compatible = "zmk,behavior-hold-tap";
             label = "BLTHMR";
-            bindings = <&bt>, <&none>;
+            bindings = <&bt>, <&trans>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
