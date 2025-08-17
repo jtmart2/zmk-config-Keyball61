@@ -137,7 +137,7 @@ layers:
   - (
   - )
   - $$mdi:backspace-reverse-outline$$
-  - {t: '&trans', h: '$$mdi:bluetooth-off$$'}
+  - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
