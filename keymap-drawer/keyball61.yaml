@@ -48,7 +48,7 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ., h: '|', s: '>'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: 'Ctl+Gui+$$mdi:arrow-left-bold$$', h: '$$mdi:apple-keyboard-caps$$'}
