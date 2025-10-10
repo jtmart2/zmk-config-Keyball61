@@ -241,29 +241,29 @@
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1                     &bt BT_SEL 2                       &bt BT_SEL 3   &bt BT_SEL 4                                              &kp PLUS              &kp UNDERSCORE  &kp C_FAST_FORWARD  &kp LEFT_BRACKET      &HML INSERT RIGHT_BRACKET  &kp LC(F4)
 &bt BT_CLR_ALL   &bt BT_DISC 0    &bt BT_DISC 1                    &bt BT_DISC 2                      &bt BT_DISC 3  &bt BT_DISC 4                                             &kp MINUS             &kp EQUAL       &kp C_REWIND        &kp LEFT_BRACE        &kp RIGHT_BRACE            &kp LA(LG(F4))
 &bl BL_OFF       &bl BL_ON        &rgb_ug RGB_EFR                  &kp C_PREVIOUS                     &bl BL_DEC     &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &bl BL_INC      &kp C_NEXT          &rgb_ug RGB_EFF       &kp LG(LS(LEFT_ARROW))     &kp LG(LS(RIGHT_ARROW))
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &kp LG(SPACE)  &trans                &kp C_MUTE         &trans           &trans                                                                          &kp LG(LS(DOWN_ARROW))     &kp LG(LS(UP_ARROW))
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &trans         &trans                &trans             &trans           &trans                                                                          &kp LG(LS(DOWN_ARROW))     &kp LG(LS(UP_ARROW))
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&kp F12           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                              &kp F6    &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&kp F12           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                              &kp F6    &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&kp LEFT_SHIFT    &trans  &trans  &trans  &mo 6   &trans                              &trans    &trans  &trans  &trans  &trans           &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &mo 6   &kp END  &kp LC(END)  &kp LC(HOME)  &kp HOME  &trans  &trans  &trans  &kp LS(HOME)     &kp LS(END)
-&trans            &trans  &trans  &trans  &trans  &trans   &trans       &trans        &trans                            &kp LC(LS(END))  &kp LC(LS(HOME))
+&kp F12           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                              &kp F6    &kp F7  &kp F8  &kp F9         &kp F10          &kp F11
+&kp F12           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                              &kp F6    &kp F7  &kp F8  &kp F9         &kp F10          &kp F11
+&kp LEFT_SHIFT    &trans  &trans  &trans  &mo 6   &trans                              &trans    &trans  &trans  &kp LG(SPACE)  &trans           &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &mo 6   &kp END  &kp LC(END)  &kp LC(HOME)  &kp HOME  &trans  &trans  &trans         &kp LS(HOME)     &kp LS(END)
+&trans            &trans  &trans  &trans  &trans  &trans   &trans       &trans        &trans                                   &kp LC(LS(END))  &kp LC(LS(HOME))
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                              &trans         &trans     &trans     &trans     &trans                  &trans
-&trans  &trans    &trans    &trans  &trans     &trans                              &kp PAGE_UP    &trans     &trans     &trans     &trans                  &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK               &trans
-&trans  &trans    &trans    &trans  &trans     &mo 6   &kp PAGE_DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans     &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT))
-&trans  &trans    &trans    &trans  &trans     &trans  &trans         &trans       &mo 3                                           &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))
+&kp LG(SPACE)  &trans    &trans    &trans  &trans     &trans                              &trans         &trans     &trans     &trans     &trans                  &kp C_MUTE
+&trans         &trans    &trans    &trans  &trans     &trans                              &kp PAGE_UP    &trans     &trans     &trans     &trans                  &trans
+&trans         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK               &trans
+&trans         &trans    &trans    &trans  &trans     &mo 6   &kp PAGE_DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans     &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT))
+&trans         &trans    &trans    &trans  &trans     &trans  &trans         &trans       &mo 3                                           &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))
             >;
         };
 
