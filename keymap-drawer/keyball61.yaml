@@ -16,7 +16,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: '!'}
   - {t: W, h: '~'}
-  - E
+  - {t: E, h: Gui+E}
   - R
   - {t: T, h: Ctl+Alt+B}
   - {t: Y, h: +}
