@@ -191,11 +191,11 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&HMS ESCAPE GRAVE                 &HMR F1 N1                  &HMR F2 N2    &HMR F3 N3        &HMR F4 N4        &HMR F5 N5                                    &HMR F6 N6       &HMR F7 N7           &HMR F8 N8               &HMR F9 N9        &HMR F10 N0         &kp BSPC
-&kp TAB                           &HMI EXCLAMATION Q          &HMI TILDE W  &HMI LG(E) E      &HMI LG(R) R      &HMI LC(LA(B)) T                              &HMR PLUS Y      &HMR UNDER U         &HMI LG(I) I             &HMI LG(N) O      &HML LG(LS(S)) P    &HML F11 GRAVE
-&kp LEFT_SHIFT                    &HMI LG(A) A                &HMI LG(S) S  &HML LG(D) D      &HMI LS(LC(A)) F  &HMI LC(LS(B)) G                              &HMR MINUS H     &HMR EQUAL J         &HMI LG(K) K             &HMI BACKSLASH L  &HMR QUESTION SEMI  &HMR SLASH SQT
-&kp LEFT_CONTROL                  &HMI LA(SPACE) Z            &HMI LG(X) X  &HMI LC(LS(C)) C  &HMI LC(LS(V)) V  &HMI LG(SPACE) B  &kp PAGE_DOWN  &kp PAGE_UP  &HMI C_MUTE N    &HMI C_PLAY_PAUSE M  &HMS GREATER_THAN COMMA  &HMS PIPE DOT     &kp LEFT_ARROW      &kp RIGHT
-&HMR CAPSLOCK LC(LG(LEFT_ARROW))  &HMR LG(TAB) LG(LC(RIGHT))  &kp LEFT_ALT  &kp LEFT_WIN      &mo 6             &lt 4 SPACE       &mo 5          &kp ENTER    &lt 2 BACKSPACE                                                                  &kp DOWN_ARROW      &kp UP_ARROW
+&HMS ESCAPE GRAVE                 &HMR F1 N1                  &HMR F2 N2    &HMR F3 N3        &HMR F4 N4        &HMR F5 N5                                    &HMR F6 N6       &HMR F7 N7        &HMR F8 N8               &HMR F9 N9        &HMR F10 N0         &kp BSPC
+&kp TAB                           &HMI EXCLAMATION Q          &HMI TILDE W  &HMI LG(E) E      &HMI LG(R) R      &HMI LC(LA(B)) T                              &HMR PLUS Y      &HMR UNDER U      &HMI LG(I) I             &HMI LG(N) O      &HML LG(LS(S)) P    &HMI F11 GRAVE
+&kp LEFT_SHIFT                    &HMI LG(A) A                &HMI LG(S) S  &HML LG(D) D      &HMI LS(LC(A)) F  &HMI LC(LS(B)) G                              &HMR MINUS H     &HMR EQUAL J      &HMI LG(K) K             &HMI BACKSLASH L  &HMR QUESTION SEMI  &HMR SLASH SQT
+&kp LEFT_CONTROL                  &HMI LA(SPACE) Z            &HMI LG(X) X  &HMI LC(LS(C)) C  &HMI LC(LS(V)) V  &HMI LG(SPACE) B  &kp PAGE_DOWN  &kp PAGE_UP  &HMI LG(M) N     &HMI LS(LG(M)) M  &HMS GREATER_THAN COMMA  &HMS PIPE DOT     &kp LEFT_ARROW      &kp RIGHT
+&HMR CAPSLOCK LC(LG(LEFT_ARROW))  &HMR LG(TAB) LG(LC(RIGHT))  &kp LEFT_ALT  &kp LEFT_WIN      &mo 6             &lt 4 SPACE       &mo 5          &kp ENTER    &lt 2 BACKSPACE                                                               &kp DOWN_ARROW      &kp UP_ARROW
             >;
         };
 
@@ -218,7 +218,7 @@
 &bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1                     &bt BT_SEL 2                       &bt BT_SEL 3   &bt BT_SEL 4                                              &kp PLUS              &kp UNDERSCORE  &kp C_FAST_FORWARD  &kp LEFT_BRACKET      &HML INSERT RIGHT_BRACKET  &kp LA(LG(F4))
 &bt BT_CLR_ALL   &bt BT_DISC 0    &bt BT_DISC 1                    &bt BT_DISC 2                      &bt BT_DISC 3  &bt BT_DISC 4                                             &kp MINUS             &kp EQUAL       &kp C_REWIND        &kp LEFT_BRACE        &kp RIGHT_BRACE            &kp LC(W)
 &bl BL_OFF       &bl BL_ON        &rgb_ug RGB_EFR                  &kp C_PREVIOUS                     &bl BL_DEC     &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &bl BL_INC      &kp C_NEXT          &rgb_ug RGB_EFF       &kp LG(LEFT_ARROW)         &kp LG(RIGHT_ARROW)
-&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &trans         &trans                &trans             &trans           &trans                                                                          &kp LG(DOWN_ARROW)         &kp LG(UP_ARROW)
+&rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(136,100,50)  &trans         &trans                &kp C_MUTE         &trans           &trans                                                                          &kp LG(DOWN_ARROW)         &kp LG(UP_ARROW)
             >;
         };
 
