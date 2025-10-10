@@ -261,8 +261,8 @@
             bindings = <
 &trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans     &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans                  &kp PAGE_UP    &trans     &trans     &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans     &trans     &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                   &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans    &trans    &trans  &trans     &mo 6   &trans  &trans  &kp PAGE_DOWN  &trans     &trans     &trans     &trans     &trans
 &trans  &trans    &trans    &trans  &trans     &trans  &mo 6   &trans  &mo 3                                           &trans     &trans
             >;
         };
@@ -281,11 +281,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &trans    &trans    &trans        &trans           &trans                  &trans         &trans     &trans     &trans     &trans     &trans
+&trans  &trans    &trans    &trans        &trans           &trans                  &kp PAGE_UP    &trans     &trans     &trans     &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                  &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans    &trans    &trans        &trans           &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans     &trans     &trans     &trans
+&trans  &trans    &trans    &trans        &trans           &trans  &trans  &trans  &trans                                          &trans     &trans
             >;
         };
     };
