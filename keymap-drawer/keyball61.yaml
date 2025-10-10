@@ -249,7 +249,7 @@ layers:
   - Ctl+Sft+END
   - Ctl+Sft+HOME
   MOUSE:
-  - Gui+$$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
