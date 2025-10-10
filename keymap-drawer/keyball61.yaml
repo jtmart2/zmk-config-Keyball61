@@ -147,8 +147,8 @@ layers:
   - _
   - FAST FORWARD
   - {t: '[', s: '{'}
-  - {t: ']', h: PRINTSCREEN, s: '}'}
-  - F11
+  - {t: ']', h: F11, s: '}'}
+  - Alt+Gui+F4
   - BT CLR ALL
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
@@ -159,8 +159,8 @@ layers:
   - {t: '=', s: +}
   - REWIND
   - '{'
-  - {t: '}', h: toggle}
-  - Ins
+  - {t: '}', h: Ins}
+  - Ctl+W
   - '&bl BL_OFF'
   - '&bl BL_ON'
   - RGB EFR
