@@ -148,7 +148,7 @@ layers:
   - FAST FORWARD
   - {t: '[', s: '{'}
   - {t: ']', h: Ins, s: '}'}
-  - Alt+Gui+F4
+  - Ctl+F4
   - BT CLR ALL
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
@@ -160,7 +160,7 @@ layers:
   - REWIND
   - '{'
   - '}'
-  - Ctl+W
+  - Alt+Gui+F4
   - '&bl BL_OFF'
   - '&bl BL_ON'
   - RGB EFR
