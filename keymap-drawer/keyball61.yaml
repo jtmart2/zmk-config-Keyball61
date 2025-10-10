@@ -27,9 +27,9 @@ layers:
   - {t: '`', h: F11, s: '~'}
   - $$mdi:apple-keyboard-shift$$
   - {t: A, h: A}
-  - {t: S, h: Sft+Ctl+A}
-  - D
-  - F
+  - {t: S, h: S}
+  - {t: D, h: D}
+  - {t: F, h: Sft+Ctl+A}
   - {t: G, h: Ctl+Sft+B}
   - {t: H, h: '-'}
   - {t: J, h: '='}
@@ -40,8 +40,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: Z, h: 'Alt+$$mdi:keyboard-space$$'}
   - {t: X, h: X}
-  - C
-  - V
+  - {t: C, h: Ctl+Sft+C}
+  - {t: V, h: Ctl+Sft+V}
   - {t: B, h: 'Gui+$$mdi:keyboard-space$$'}
   - PgDn
   - PgUp
