@@ -55,7 +55,7 @@ layers:
   - {t: 'Gui+Ctl+$$mdi:arrow-right-bold$$', h: 'Gui+$$mdi:keyboard-tab$$'}
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - SNIPE
+  - {t: FUN, h: SNIPE}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -241,7 +241,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
