@@ -18,7 +18,7 @@ layers:
   - {t: W, h: '~'}
   - E
   - R
-  - {t: T, h: Ctl+Alt+T}
+  - {t: T, h: Ctl+Alt+B}
   - {t: Y, h: +}
   - {t: U, h: _}
   - I
