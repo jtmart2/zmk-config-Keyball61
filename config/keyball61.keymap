@@ -248,22 +248,22 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F12  &kp F1  &kp F2   &kp F3   &kp F4  &kp F5                           &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
-&trans   &kp F1  &kp F2   &kp F3   &kp F4  &trans                           &trans       &trans  &trans  &trans  &trans           &trans
-&trans   &kp F5  &kp F6   &kp F7   &kp F8  &kp F12                          &trans       &trans  &trans  &trans  &trans           &trans
-&trans   &kp F9  &kp F10  &kp F11  &mo 6   &kp LC(HOME)  &kp END  &kp HOME  &kp LC(END)  &trans  &trans  &trans  &kp LS(HOME)     &kp LS(END)
-&trans   &trans  &trans   &mo 6    &trans  &trans        &trans   &trans    &trans                               &kp LC(LS(END))  &kp LC(LS(HOME))
+&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                           &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
+&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                           &kp F6       &kp F7  &kp F8  &kp F9  &kp F10          &kp F11
+&trans   &trans  &trans  &trans  &mo 6   &trans                           &trans       &trans  &trans  &trans  &trans           &trans
+&trans   &trans  &trans  &trans  &mo 6   &kp LC(HOME)  &kp END  &kp HOME  &kp LC(END)  &trans  &trans  &trans  &kp LS(HOME)     &kp LS(END)
+&trans   &trans  &trans  &trans  &trans  &trans        &trans   &trans    &trans                               &kp LC(LS(END))  &kp LC(LS(HOME))
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                 &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                 &kp PAGE_UP    &trans     &trans     &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                  &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &mo 6   &mo 6  &trans  &kp PAGE_DOWN  &trans     &trans     &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &mo 6  &trans  &mo 3                                           &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans                              &trans         &trans     &trans     &trans     &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans                              &kp PAGE_UP    &trans     &trans     &trans     &trans     &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans    &trans    &trans  &trans     &mo 6   &kp PAGE_DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans     &trans     &trans
+&trans  &trans    &trans    &trans  &trans     &trans  &mo 6          &trans       &mo 3                                           &trans     &trans
             >;
         };
 
