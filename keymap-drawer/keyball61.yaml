@@ -45,9 +45,9 @@ layers:
   - {t: B, h: 'Gui+$$mdi:keyboard-space$$'}
   - PgDn
   - PgUp
-  - N
-  - M
-  - {t: ',', s: <}
+  - {t: N, h: '$$mdi:volume-off$$'}
+  - {t: M, h: PLAY PAUSE}
+  - {t: ',', h: '>', s: <}
   - {t: ., h: '|', s: '>'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
@@ -173,8 +173,8 @@ layers:
   - '&bl BL_INC'
   - $$mdi:skip-next$$
   - RGB EFF
-  - '|'
-  - '>'
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - RGB OFF
   - RGB ON
   - RGB COLOR HSB(0,100,50)
@@ -184,8 +184,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - PLAY PAUSE
-  - $$mdi:volume-off$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
   FUN:
   - F12
   - F1
