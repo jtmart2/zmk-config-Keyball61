@@ -30,7 +30,7 @@ layers:
   - {t: S, h: S}
   - {t: D, h: D}
   - {t: F, h: Sft+Ctl+A}
-  - {t: G, h: Ctl+Alt+B}
+  - {t: G, h: Ctl+Sft+B}
   - {t: H, h: '-'}
   - {t: J, h: '='}
   - {t: K, h: Gui+K}
@@ -42,7 +42,7 @@ layers:
   - {t: X, h: X}
   - {t: C, h: Ctl+Sft+C}
   - {t: V, h: Ctl+Sft+V}
-  - {t: B, h: Sft+Ctl+B}
+  - {t: B, h: Ctl+Alt+B}
   - PgDn
   - PgUp
   - {t: N, h: Gui+M}
