@@ -17,12 +17,12 @@ layers:
   - {t: Q, h: '!'}
   - {t: W, h: '~'}
   - {t: E, h: Gui+E}
-  - R
+  - {t: R, h: Gui+R}
   - {t: T, h: Ctl+Alt+B}
   - {t: Y, h: +}
   - {t: U, h: _}
-  - I
-  - O
+  - {t: I, h: Gui+I}
+  - {t: O, h: Gui+N}
   - {t: P, h: Gui+Sft+S}
   - {t: '`', h: F11, s: '~'}
   - $$mdi:apple-keyboard-shift$$
@@ -33,7 +33,7 @@ layers:
   - {t: G, h: Ctl+Sft+B}
   - {t: H, h: '-'}
   - {t: J, h: '='}
-  - K
+  - {t: K, h: Gui+K}
   - {t: L, h: \}
   - {t: ;, h: '?', s: ':'}
   - {t: '''', h: /, s: '"'}
