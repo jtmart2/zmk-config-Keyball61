@@ -179,7 +179,7 @@ layers:
   - RGB ON
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(136,100,50)
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', h: ':', s: <}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
