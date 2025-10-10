@@ -18,7 +18,7 @@ layers:
   - {t: W, h: '~'}
   - {t: E, h: Gui+E}
   - {t: R, h: Gui+R}
-  - {t: T, h: Ctl+Alt+B}
+  - {t: T, h: 'Alt+$$mdi:keyboard-space$$'}
   - {t: Y, h: +}
   - {t: U, h: _}
   - {t: I, h: Gui+I}
@@ -30,7 +30,7 @@ layers:
   - {t: S, h: S}
   - {t: D, h: D}
   - {t: F, h: Sft+Ctl+A}
-  - {t: G, h: Ctl+Sft+B}
+  - {t: G, h: Ctl+Alt+B}
   - {t: H, h: '-'}
   - {t: J, h: '='}
   - {t: K, h: Gui+K}
@@ -42,7 +42,7 @@ layers:
   - {t: X, h: X}
   - {t: C, h: Ctl+Sft+C}
   - {t: V, h: Ctl+Sft+V}
-  - {t: B, h: 'Gui+$$mdi:keyboard-space$$'}
+  - {t: B, h: Sft+Ctl+B}
   - PgDn
   - PgUp
   - {t: N, h: Gui+M}
@@ -180,7 +180,7 @@ layers:
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(136,100,50)
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
