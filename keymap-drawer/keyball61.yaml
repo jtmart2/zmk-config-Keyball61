@@ -26,8 +26,8 @@ layers:
   - {t: P, h: Gui+Sft+S}
   - {t: '`', h: F11, s: '~'}
   - $$mdi:apple-keyboard-shift$$
-  - A
-  - S
+  - {t: A, h: A}
+  - {t: S, h: Sft+Ctl+A}
   - D
   - F
   - G
@@ -38,11 +38,11 @@ layers:
   - {t: ;, h: '?', s: ':'}
   - {t: '''', h: /, s: '"'}
   - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
+  - {t: Z, h: 'Alt+$$mdi:keyboard-space$$'}
+  - {t: X, h: X}
   - C
   - V
-  - B
+  - {t: B, h: 'Gui+$$mdi:keyboard-space$$'}
   - PgDn
   - PgUp
   - N
@@ -147,7 +147,7 @@ layers:
   - _
   - FAST FORWARD
   - {t: '[', s: '{'}
-  - {t: ']', h: F11, s: '}'}
+  - {t: ']', h: Ins, s: '}'}
   - Alt+Gui+F4
   - BT CLR ALL
   - {t: BT DISC, h: '0'}
@@ -159,7 +159,7 @@ layers:
   - {t: '=', s: +}
   - REWIND
   - '{'
-  - {t: '}', h: Ins}
+  - '}'
   - Ctl+W
   - '&bl BL_OFF'
   - '&bl BL_ON'
@@ -184,7 +184,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - PLAY PAUSE
   - $$mdi:volume-off$$
   FUN:
   - F12
