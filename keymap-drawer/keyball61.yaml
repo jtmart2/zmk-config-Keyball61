@@ -55,7 +55,7 @@ layers:
   - {t: 'Gui+Ctl+$$mdi:arrow-right-bold$$', h: 'Gui+$$mdi:keyboard-tab$$'}
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: ., h: FUN, s: '>'}
+  - {t: ',', h: FUN, s: <}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -179,7 +179,7 @@ layers:
   - RGB ON
   - RGB COLOR HSB(0,100,50)
   - RGB COLOR HSB(136,100,50)
-  - {t: ',', h: ':', s: <}
+  - {t: ., h: ':', s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
