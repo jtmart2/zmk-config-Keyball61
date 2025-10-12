@@ -11,7 +11,7 @@ layers:
   - {t: '7', h: F7, s: '&'}
   - {t: '8', h: F8, s: '*'}
   - {t: '9', h: F9, s: (}
-  - {t: '0', h: F10, s: )}
+  - {t: '0', h: F11, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: '!'}
@@ -24,7 +24,7 @@ layers:
   - {t: I, h: Gui+I}
   - {t: O, h: Gui+N}
   - {t: P, h: Gui+Sft+S}
-  - {t: '`', h: F11, s: '~'}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: A, h: A}
   - {t: S, h: S}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
-  - {t: '$$mdi:keyboard-esc$$', h: toggle}
+  - {t: '~', h: '$$mdi:keyboard-esc$$'}
   - '!'
   - '@'
   - '#'
