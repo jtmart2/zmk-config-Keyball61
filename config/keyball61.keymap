@@ -259,9 +259,9 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                              &trans         &trans     &trans     &trans     &trans                  &kp C_MUTE
+&trans  &trans    &trans    &trans  &trans     &trans                              &trans         &trans     &trans     &trans     &trans                  &trans
 &trans  &trans    &trans    &trans  &trans     &trans                              &kp PAGE_UP    &trans     &trans     &trans     &trans                  &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK               &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &mo 6                               &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK               &kp C_MUTE
 &trans  &trans    &trans    &trans  &trans     &mo 6   &kp PAGE_DOWN  &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans     &trans     &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT))
 &trans  &trans    &trans    &trans  &trans     &trans  &trans         &trans       &mo 3                                           &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))
             >;
@@ -286,6 +286,16 @@
 &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &trans                  &mkp LCLK      &mkp LCLK  &mkp RCLK  &mkp RCLK  &mkp MCLK               &trans
 &trans  &trans    &trans    &trans        &trans           &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans     &trans     &kp LS(LC(LEFT_ARROW))  &kp LS(LC(RIGHT_ARROW))
 &trans  &trans    &trans    &trans        &trans           &trans  &trans  &trans  &trans                                          &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
